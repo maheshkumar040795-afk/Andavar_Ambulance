@@ -1,0 +1,1286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Andavar Ambulance Service - 24/7 emergency and hospital transfer ambulance service across Tamil Nadu. 10+ years of trusted, reliable care. Call 93608 69598.">
+<meta name="keywords" content="ambulance Tamil Nadu, emergency ambulance service, ICU ambulance Tamil Nadu, outstation ambulance Tamil Nadu, Andavar Ambulance">
+<title>Andavar Ambulance Service | 24/7 Emergency Ambulance Across Tamil Nadu</title>
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🚑%3C/text%3E%3C/svg%3E">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+:root{
+  --bg:#071a1f;
+  --bg-soft:#0b2229;
+  --card:#0e2a31;
+  --card-hover:#123640;
+  --teal:#17c3a2;
+  --teal-dim:#0f8f78;
+  --amber:#f5a524;
+  --text:#eaf6f4;
+  --text-dim:rgba(234,246,244,0.68);
+  --text-faint:rgba(234,246,244,0.45);
+  --border:rgba(23,195,162,0.16);
+  --shadow:0 10px 30px rgba(0,0,0,0.35);
+}
+html{scroll-behavior:smooth;}
+body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);overflow-x:hidden;}
+h1,h2,h3,h4{font-family:'Sora',sans-serif;}
+.container{max-width:1200px;margin:0 auto;padding:0 20px;}
+section{padding:90px 20px;position:relative;}
+a{text-decoration:none;}
+img{max-width:100%;display:block;}
+.section-tag{display:inline-flex;align-items:center;gap:8px;background:rgba(23,195,162,0.1);border:1px solid var(--border);color:var(--teal);font-size:12px;font-weight:700;letter-spacing:2px;text-transform:uppercase;padding:6px 16px;border-radius:20px;margin-bottom:16px;}
+.section-title{font-size:clamp(26px,4vw,40px);font-weight:800;margin-bottom:14px;color:var(--text);}
+.section-title span{color:var(--teal);}
+.section-subtitle{color:var(--text-dim);font-size:16px;max-width:600px;margin-bottom:50px;line-height:1.7;}
+.center{text-align:center;margin-left:auto;margin-right:auto;}
+.btn-primary{background:linear-gradient(135deg,var(--teal),var(--teal-dim));color:#04120f;border:none;padding:15px 32px;border-radius:10px;font-weight:700;font-size:15px;cursor:pointer;transition:.3s;display:inline-flex;align-items:center;gap:10px;box-shadow:0 8px 24px rgba(23,195,162,0.35);}
+.btn-primary:hover{transform:translateY(-3px);box-shadow:0 12px 30px rgba(23,195,162,0.5);}
+.btn-amber{background:linear-gradient(135deg,var(--amber),#d4890f);color:#241300;border:none;padding:15px 32px;border-radius:10px;font-weight:700;font-size:15px;cursor:pointer;transition:.3s;display:inline-flex;align-items:center;gap:10px;box-shadow:0 8px 24px rgba(245,165,36,0.35);}
+.btn-amber:hover{transform:translateY(-3px);box-shadow:0 12px 30px rgba(245,165,36,0.5);}
+
+/* NAVBAR */
+.navbar{position:fixed;top:0;left:0;right:0;z-index:1000;background:rgba(7,26,31,0.92);backdrop-filter:blur(14px);border-bottom:1px solid var(--border);padding:14px 0;}
+.nav-container{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;justify-content:space-between;}
+.logo{display:flex;align-items:center;gap:12px;}
+.logo-badge{width:44px;height:44px;border-radius:50%;background:linear-gradient(135deg,var(--teal),var(--teal-dim));display:flex;align-items:center;justify-content:center;font-size:20px;color:#04120f;flex-shrink:0;overflow:hidden;}
+.logo-badge img{width:100%;height:100%;object-fit:cover;}
+.logo-text-main{font-size:16px;font-weight:800;color:var(--text);letter-spacing:0.5px;line-height:1.2;}
+.logo-text-sub{font-size:10.5px;color:var(--amber);font-weight:700;letter-spacing:2.5px;text-transform:uppercase;}
+.nav-links{display:flex;list-style:none;gap:24px;align-items:center;}
+.nav-links a{color:var(--text-dim);font-weight:500;font-size:14px;transition:.25s;border-bottom:2px solid transparent;padding-bottom:2px;}
+.nav-links a:hover{color:var(--teal);border-bottom-color:var(--teal);}
+.nav-book{background:rgba(23,195,162,0.12)!important;border:1px solid var(--teal)!important;color:var(--teal)!important;padding:9px 18px!important;border-radius:8px;font-weight:700!important;}
+.nav-call{background:linear-gradient(135deg,var(--amber),#d4890f)!important;color:#241300!important;padding:10px 20px!important;border-radius:8px;font-weight:700!important;border:none!important;}
+.privacy-nav-item{display:none;}
+.hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;z-index:1100;}
+.hamburger span{width:26px;height:2.5px;background:var(--teal);border-radius:2px;transition:.3s;}
+.hamburger.active span:nth-child(1){transform:translateY(7.5px) rotate(45deg);}
+.hamburger.active span:nth-child(2){opacity:0;}
+.hamburger.active span:nth-child(3){transform:translateY(-7.5px) rotate(-45deg);}
+@media(max-width:1000px){
+  .nav-links{display:none;position:fixed;top:0;right:0;height:100vh;width:78%;max-width:320px;background:#081e24;flex-direction:column;padding:100px 30px 30px;gap:22px;box-shadow:-10px 0 30px rgba(0,0,0,0.4);align-items:flex-start;}
+  .nav-links.active{display:flex;}
+  .hamburger{display:flex;}
+  .privacy-nav-item{display:block;color:var(--amber)!important;font-size:13px;border-top:1px solid var(--border);padding-top:16px;margin-top:6px;width:100%;}
+  .privacy-nav-item i{margin-right:6px;}
+}
+
+/* HERO + WATERMARK PARALLAX (5D layered motion) */
+.hero{min-height:100vh;display:flex;align-items:center;padding-top:110px;position:relative;background:radial-gradient(ellipse at top right,rgba(23,195,162,0.12),transparent 60%),radial-gradient(ellipse at bottom left,rgba(245,165,36,0.08),transparent 55%);overflow:hidden;}
+.hero-watermark{position:absolute;inset:0;z-index:0;pointer-events:none;overflow:hidden;}
+.wm-icon{position:absolute;color:var(--teal);opacity:0.06;will-change:transform;}
+.wm-icon.wm-amber{color:var(--amber);opacity:0.07;}
+.wm-1{top:8%;right:6%;font-size:260px;}
+.wm-2{bottom:2%;left:2%;font-size:190px;}
+.wm-3{top:42%;left:46%;font-size:140px;}
+.wm-4{top:60%;right:22%;font-size:90px;}
+.wm-5{top:14%;left:10%;font-size:70px;}
+@media(max-width:700px){.wm-1{font-size:150px;}.wm-2{font-size:110px;}.wm-3{font-size:80px;}.wm-4{display:none;}.wm-5{font-size:50px;}}
+.ecg-watermark{position:absolute;left:0;right:0;top:36%;width:100%;height:120px;z-index:0;opacity:0.16;pointer-events:none;}
+.ecg-line{fill:none;stroke:var(--teal);stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1400;stroke-dashoffset:1400;animation:ecgDraw 6s linear infinite;}
+@keyframes ecgDraw{0%{stroke-dashoffset:1400;}60%{stroke-dashoffset:0;}100%{stroke-dashoffset:-1400;}}
+.hero-grid{display:grid;grid-template-columns:1.05fr 0.95fr;gap:50px;align-items:center;position:relative;z-index:1;}
+@media(max-width:960px){.hero-grid{grid-template-columns:1fr;}}
+.hero-badge{display:inline-flex;align-items:center;gap:8px;background:rgba(245,165,36,0.1);border:1px solid rgba(245,165,36,0.35);color:var(--amber);padding:8px 18px;border-radius:24px;font-size:12px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:22px;}
+.hero-badge .dot{width:7px;height:7px;background:var(--amber);border-radius:50%;animation:blink 1.5s infinite;}
+@keyframes blink{0%,100%{opacity:1;}50%{opacity:0.3;}}
+.hero-brand{font-size:clamp(30px,4.6vw,50px);font-weight:800;line-height:1.14;margin-bottom:10px;color:var(--text);letter-spacing:0.5px;}
+.hero h1{font-size:clamp(18px,2.76vw,30px);font-weight:800;line-height:1.14;margin-bottom:18px;}
+.hero h1 span{color:var(--teal);}
+.hero-sub{color:var(--text-dim);font-size:16px;line-height:1.75;margin-bottom:28px;max-width:480px;}
+.hero-stats{display:flex;gap:30px;margin-bottom:34px;flex-wrap:wrap;}
+.stat-num{font-size:28px;font-weight:800;color:var(--teal);font-family:'Sora',sans-serif;}
+.stat-label{font-size:12px;color:var(--text-faint);font-weight:600;margin-top:2px;text-transform:uppercase;letter-spacing:0.5px;}
+.hero-cta{display:flex;gap:14px;flex-wrap:wrap;}
+
+/* HERO BOOKING CARD (referenced from God Bless "Book an Ambulance" widget) */
+.booking-card{background:var(--card);border:1px solid var(--border);border-radius:20px;box-shadow:var(--shadow);overflow:hidden;}
+.booking-card-header{background:linear-gradient(135deg,var(--teal),var(--teal-dim));padding:16px 22px;display:flex;align-items:center;gap:12px;}
+.booking-card-header i{font-size:22px;color:#04120f;}
+.booking-card-header h2{color:#04120f;font-size:17px;font-weight:800;}
+.booking-card-header p{color:rgba(4,18,15,0.7);font-size:11.5px;margin-top:1px;}
+.booking-card-body{padding:20px 22px 24px;}
+.trip-tabs{display:flex;background:var(--bg-soft);border-radius:10px;padding:4px;margin-bottom:16px;gap:4px;}
+.trip-tab{flex:1;padding:9px 6px;background:transparent;border:none;color:var(--text-dim);font-size:12.5px;font-weight:700;border-radius:8px;cursor:pointer;transition:.2s;}
+.trip-tab.active{background:linear-gradient(135deg,var(--teal),var(--teal-dim));color:#04120f;}
+.bk-form-row{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:12px;}
+@media(max-width:420px){.bk-form-row{grid-template-columns:1fr;}}
+.bk-group{margin-bottom:12px;}
+.bk-group label{display:block;font-size:11.5px;color:var(--text-faint);font-weight:600;margin-bottom:5px;text-transform:uppercase;letter-spacing:0.4px;}
+.bk-group input,.bk-group select,.bk-group textarea{width:100%;padding:10px 12px;background:var(--bg-soft);border:1.5px solid var(--border);border-radius:8px;color:var(--text);font-size:13.5px;font-family:'Inter',sans-serif;outline:none;transition:.2s;}
+.bk-group input:focus,.bk-group select:focus,.bk-group textarea:focus{border-color:var(--teal);}
+.bk-location-wrap{position:relative;}
+.bk-suggestions{position:relative;margin-top:2px;}
+.bk-suggestion-item{background:var(--bg-soft);border:1px solid var(--border);padding:9px 12px;font-size:12.5px;color:var(--text-dim);cursor:pointer;border-top:none;}
+.bk-suggestion-item:hover{background:rgba(23,195,162,0.12);color:var(--teal);}
+.distance-banner{display:none;align-items:center;gap:10px;background:rgba(245,165,36,0.1);border:1.5px solid var(--amber);border-radius:8px;padding:9px 12px;margin-bottom:12px;}
+.distance-banner i{color:var(--amber);font-size:16px;}
+.distance-banner .db-label{font-size:10px;color:var(--amber);text-transform:uppercase;letter-spacing:0.5px;font-weight:700;}
+.distance-banner .db-val{font-size:14px;color:var(--text);font-weight:800;}
+.toggle-label{display:flex;align-items:center;gap:9px;color:var(--text-dim);font-size:13px;margin-bottom:12px;cursor:pointer;}
+.toggle-hint{display:flex;align-items:center;gap:6px;color:var(--text-faint);font-size:11.5px;margin:-6px 0 14px 24px;line-height:1.5;}
+.toggle-hint i{color:var(--teal);font-size:12px;flex-shrink:0;}
+.btn-book{width:100%;padding:13px;background:linear-gradient(135deg,#25d366,#1ea952);color:white;border:none;border-radius:9px;font-size:14px;font-weight:700;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:8px;transition:.3s;box-shadow:0 6px 20px rgba(37,211,102,0.35);}
+.btn-book:hover{transform:translateY(-2px);box-shadow:0 10px 26px rgba(37,211,102,0.5);}
+.booking-note{text-align:center;font-size:11px;color:var(--text-faint);margin-top:9px;}
+.dt-display{cursor:pointer;}
+
+/* CUSTOM DATE & TIME PICKER MODAL */
+.dt-modal-overlay{display:none;position:fixed;inset:0;background:rgba(3,10,12,0.75);z-index:10000;align-items:center;justify-content:center;padding:20px;}
+.dt-modal-overlay.active{display:flex;}
+.dt-modal{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:24px 22px;width:100%;max-width:340px;box-shadow:var(--shadow);}
+.dt-modal h4{font-size:15.5px;margin-bottom:16px;color:var(--text);}
+.dt-modal .bk-group{margin-bottom:14px;}
+.dt-time-row{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;}
+.dt-modal-actions{display:flex;gap:10px;margin-top:6px;}
+.dt-cancel{flex:1;padding:11px;background:var(--bg-soft);border:1.5px solid var(--border);color:var(--text-dim);border-radius:8px;font-weight:700;font-size:13.5px;cursor:pointer;transition:.2s;}
+.dt-cancel:hover{border-color:var(--text-faint);}
+.dt-ok{flex:1;padding:11px;background:linear-gradient(135deg,var(--teal),var(--teal-dim));border:none;color:#04120f;border-radius:8px;font-weight:700;font-size:13.5px;cursor:pointer;transition:.2s;}
+.dt-ok:hover{transform:translateY(-1px);}
+
+/* EMERGENCY STRIP */
+.emergency-strip{background:linear-gradient(90deg,#0c2f34,#0e3a35);border-top:1px solid var(--border);border-bottom:1px solid var(--border);padding:16px 20px;}
+.strip-inner{max-width:1200px;margin:0 auto;display:flex;align-items:center;justify-content:center;gap:16px;flex-wrap:wrap;text-align:center;}
+.strip-inner i{color:var(--amber);font-size:18px;}
+.strip-inner p{font-size:14px;color:var(--text-dim);}
+.strip-inner strong{color:var(--teal);}
+
+/* AMBULANCE TYPES */
+.types-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px;}
+.type-card{background:var(--card);border:1px solid var(--border);border-radius:18px;padding:30px 26px;transition:.3s;}
+.type-card:hover{transform:translateY(-8px);border-color:var(--teal);background:var(--card-hover);}
+.type-icon{width:56px;height:56px;border-radius:14px;background:rgba(23,195,162,0.12);display:flex;align-items:center;justify-content:center;font-size:24px;color:var(--teal);margin-bottom:18px;}
+.type-icon.ic-als{background:rgba(239,68,68,0.14);color:#ef4444;}
+.type-icon.ic-bls{background:rgba(23,195,162,0.14);color:var(--teal);}
+.type-icon.ic-icu{background:rgba(59,130,246,0.14);color:#3b82f6;}
+.type-icon.ic-freezer{background:rgba(56,189,248,0.14);color:#38bdf8;}
+.type-icon.ic-ac{background:rgba(245,165,36,0.16);color:var(--amber);}
+.type-icon.ic-eeco{background:rgba(168,85,247,0.14);color:#a855f7;}
+.type-card h3{font-size:18px;margin-bottom:8px;}
+.type-card p{color:var(--text-dim);font-size:13.5px;line-height:1.6;}
+
+/* GALLERY */
+.gallery-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px;}
+.gallery-card{background:var(--card);border:1px solid var(--border);border-radius:18px;overflow:hidden;transition:.3s;}
+.gallery-card:hover{border-color:var(--teal);transform:translateY(-6px);}
+.gallery-img-slot{height:180px;background:linear-gradient(135deg,#0c2b31,#0f3a3c);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;position:relative;}
+.gallery-img-slot img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:none;}
+.gallery-img-slot i{font-size:30px;color:var(--teal);opacity:0.55;}
+.gallery-img-slot span{color:var(--text-faint);font-size:11px;letter-spacing:0.5px;text-transform:uppercase;font-weight:600;}
+.gallery-caption{padding:14px 16px;}
+.gallery-caption h4{font-size:14px;margin-bottom:2px;}
+.gallery-caption p{font-size:12px;color:var(--text-faint);}
+
+/* MEDICAL EQUIPMENT (detailed, referenced from God Bless equipment section) */
+.equip-tab-btns{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-bottom:36px;}
+.equip-tab-btn{background:var(--card);border:1px solid var(--border);color:var(--text-dim);padding:11px 20px;border-radius:30px;font-weight:600;font-size:13px;cursor:pointer;transition:.25s;display:flex;align-items:center;gap:8px;}
+.equip-tab-btn.active,.equip-tab-btn:hover{background:linear-gradient(135deg,var(--teal),var(--teal-dim));color:#04120f;border-color:transparent;}
+.equip-panel{display:none;}
+.equip-panel.active{display:block;}
+.equip-panel-header{display:flex;align-items:center;gap:16px;margin-bottom:26px;}
+.equip-panel-icon{width:54px;height:54px;border-radius:14px;background:rgba(245,165,36,0.12);display:flex;align-items:center;justify-content:center;font-size:22px;color:var(--amber);flex-shrink:0;}
+.equip-panel-header h3{font-size:19px;margin-bottom:3px;}
+.equip-panel-header p{color:var(--text-dim);font-size:13.5px;}
+.equip-cards-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:14px;}
+.equip-card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:20px 12px;text-align:center;transition:.25s;}
+.equip-card:hover{border-color:var(--amber);transform:translateY(-4px);}
+.equip-card i{font-size:22px;color:var(--amber);margin-bottom:9px;}
+.equip-card .fa-lungs{color:#3b82f6;}
+.equip-card .fa-heart-pulse{color:#ef4444;}
+.equip-card .fa-syringe{color:#a855f7;}
+.equip-card .fa-wind{color:#38bdf8;}
+.equip-card .fa-fan{color:#22d3ee;}
+.equip-card .fa-droplet{color:#f472b6;}
+.equip-card .fa-smog{color:#94a3b8;}
+.equip-card .fa-bed-pulse{color:var(--teal);}
+.equip-card .fa-ruler-horizontal{color:var(--amber);}
+.equip-card .fa-wheelchair{color:#fb923c;}
+.equip-card .fa-heart{color:#ef4444;}
+.equip-card .fa-vial{color:#a3e635;}
+.equip-card .fa-pills{color:#facc15;}
+.equip-card .fa-car-battery{color:#eab308;}
+.equip-card .fa-signal{color:#34d399;}
+.equip-card .fa-location-crosshairs{color:#60a5fa;}
+.equip-card .fa-video{color:#f87171;}
+.equip-card .fa-suitcase-medical{color:var(--teal);}
+.equip-card .fa-bone{color:#e5e7eb;}
+.equip-card .fa-hand-holding-medical{color:#fb7185;}
+.equip-card .fa-snowflake{color:#38bdf8;}
+.equip-card .fa-temperature-low{color:#38bdf8;}
+.equip-card .fa-shield-heart{color:var(--teal);}
+.equip-card .fa-soap{color:#93c5fd;}
+.equip-card span{display:block;font-size:12.5px;color:var(--text-dim);font-weight:500;line-height:1.4;}
+
+/* ABOUT */
+.about-grid{display:grid;grid-template-columns:0.9fr 1.1fr;gap:60px;align-items:center;}
+@media(max-width:900px){.about-grid{grid-template-columns:1fr;}}
+.owner-card{background:var(--card);border:1px solid var(--border);border-radius:20px;padding:36px 30px;text-align:center;}
+.owner-avatar{width:90px;height:90px;border-radius:50%;background:linear-gradient(135deg,var(--teal),var(--amber));display:flex;align-items:center;justify-content:center;font-size:34px;font-weight:800;color:#04120f;margin:0 auto 18px;}
+.owner-avatar-flip{width:110px;height:110px;margin:0 auto 18px;perspective:800px;cursor:pointer;}
+.owner-avatar-flip-inner{position:relative;width:100%;height:100%;border-radius:50%;transform-style:preserve-3d;transition:transform 1s cubic-bezier(0.4,0.2,0.2,1);animation:ownerAutoFlip 6s ease-in-out infinite;}
+.owner-avatar-flip:hover .owner-avatar-flip-inner{animation-play-state:paused;transform:rotateY(180deg);}
+.owner-avatar-face{position:absolute;inset:0;border-radius:50%;backface-visibility:hidden;overflow:hidden;border:3px solid var(--teal);box-shadow:0 8px 24px rgba(23,195,162,0.35);}
+.owner-avatar-face img{width:100%;height:100%;object-fit:cover;object-position:center 15%;}
+.owner-avatar-face.back{transform:rotateY(180deg);}
+@keyframes ownerAutoFlip{0%,45%{transform:rotateY(0deg);}50%,95%{transform:rotateY(180deg);}100%{transform:rotateY(360deg);}}
+.owner-card h4{font-size:19px;margin-bottom:4px;}
+.owner-card .role{color:var(--amber);font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:1px;margin-bottom:18px;}
+.owner-exp{background:rgba(23,195,162,0.08);border:1px solid var(--border);border-radius:14px;padding:16px;margin-top:10px;}
+.owner-exp .num{font-size:32px;font-weight:800;color:var(--teal);font-family:'Sora',sans-serif;}
+.owner-exp .lbl{font-size:12px;color:var(--text-dim);text-transform:uppercase;letter-spacing:1px;}
+.about-points{list-style:none;margin-top:24px;}
+.about-points li{display:flex;gap:14px;margin-bottom:18px;align-items:flex-start;}
+.about-points i{color:var(--teal);font-size:18px;margin-top:2px;}
+.about-points strong{display:block;font-size:15px;margin-bottom:3px;}
+.about-points p{color:var(--text-dim);font-size:14px;line-height:1.6;}
+
+/* CONTACT */
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;}
+@media(max-width:900px){.contact-grid{grid-template-columns:1fr;}}
+.contact-form{background:var(--card);border:1px solid var(--border);border-radius:20px;padding:34px 30px;}
+.contact-form input,.contact-form select,.contact-form textarea{width:100%;padding:13px 16px;background:var(--bg-soft);border:1.5px solid var(--border);border-radius:10px;color:var(--text);font-size:14px;font-family:'Inter',sans-serif;outline:none;margin-bottom:16px;transition:.2s;}
+.contact-form input:focus,.contact-form select:focus,.contact-form textarea:focus{border-color:var(--teal);}
+.contact-side{display:flex;flex-direction:column;gap:16px;}
+.contact-info-card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:20px 22px;display:flex;gap:16px;align-items:center;transition:.25s;}
+.contact-info-card:hover{border-color:var(--teal);}
+.contact-info-card i{font-size:22px;color:var(--teal);width:26px;}
+.contact-info-card strong{display:block;font-size:14px;}
+.contact-info-card span{color:var(--text-dim);font-size:13px;}
+.contact-info-card a{color:var(--text-dim);}
+
+/* REVIEWS */
+.reviews-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px;}
+.review-card{background:var(--card);border:1px solid var(--border);border-radius:18px;padding:26px 24px;transition:.25s;}
+.review-card:hover{border-color:var(--teal);transform:translateY(-5px);}
+.review-stars{color:var(--amber);font-size:13px;margin-bottom:12px;letter-spacing:2px;}
+.review-text{color:var(--text-dim);font-size:13.5px;line-height:1.7;margin-bottom:18px;}
+.review-author{display:flex;align-items:center;gap:12px;}
+.review-avatar{width:42px;height:42px;border-radius:50%;background:linear-gradient(135deg,var(--teal),var(--amber));display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:800;color:#04120f;flex-shrink:0;}
+.review-author strong{font-size:13.5px;display:block;}
+.review-author span{font-size:11.5px;color:var(--text-faint);}
+
+/* PRIVACY POLICY (linked only from hamburger / mobile menu) */
+.privacy-section{background:var(--bg-soft);}
+.privacy-inner{max-width:800px;margin:0 auto;}
+.privacy-inner h3{font-size:17px;color:var(--teal);margin:26px 0 10px;}
+.privacy-inner p,.privacy-inner li{color:var(--text-dim);font-size:14px;line-height:1.75;margin-bottom:8px;}
+.privacy-inner ul{padding-left:20px;margin-bottom:10px;}
+.privacy-inner a{color:var(--teal);}
+.pp-date{color:var(--text-faint)!important;font-size:12.5px!important;margin-bottom:20px!important;}
+
+/* FOOTER */
+.footer{background:#051216;padding:60px 20px 20px;border-top:1px solid var(--border);}
+.footer-grid{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:40px;max-width:1200px;margin:0 auto 40px;}
+@media(max-width:800px){.footer-grid{grid-template-columns:1fr;}}
+.footer-brand p{color:var(--text-faint);font-size:13.5px;line-height:1.7;margin-top:14px;max-width:320px;}
+.footer h4{color:var(--amber);margin-bottom:16px;font-size:14px;text-transform:uppercase;letter-spacing:1px;}
+.footer ul{list-style:none;}
+.footer li{margin-bottom:11px;}
+.footer a,.footer p{color:var(--text-faint);text-decoration:none;font-size:13.5px;line-height:1.8;}
+.footer a:hover{color:var(--teal);}
+.social-links{display:flex;gap:12px;margin-top:16px;}
+.social-links a{width:38px;height:38px;border:1px solid var(--border);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:15px;color:var(--text-dim);transition:.25s;}
+.social-links a:hover{border-color:var(--teal);color:var(--teal);background:rgba(23,195,162,0.08);}
+.footer-bottom{text-align:center;padding-top:22px;border-top:1px solid var(--border);color:var(--text-faint);font-size:12.5px;max-width:1200px;margin:0 auto;}
+
+/* FLOATING BUTTONS */
+.floating-buttons{position:fixed;bottom:26px;right:20px;display:flex;flex-direction:column;gap:12px;z-index:9999;}
+.float-btn{width:56px;height:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:24px;color:white;box-shadow:0 6px 20px rgba(0,0,0,0.4);transition:.3s;}
+.float-btn:hover{transform:scale(1.1);}
+.whatsapp-btn{background:#25d366;animation:pulseGreen 2.2s infinite;}
+.call-btn{background:linear-gradient(135deg,var(--amber),#d4890f);animation:pulseAmber 2.2s infinite;}
+@keyframes pulseGreen{0%,100%{box-shadow:0 6px 20px rgba(37,211,102,0.3);}50%{box-shadow:0 6px 28px rgba(37,211,102,0.65);}}
+@keyframes pulseAmber{0%,100%{box-shadow:0 6px 20px rgba(245,165,36,0.3);}50%{box-shadow:0 6px 28px rgba(245,165,36,0.65);}}
+
+::selection{background:var(--teal);color:#04120f;}
+</style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="nav-container">
+    <div class="logo">
+      <div class="logo-badge"><img src="https://res.cloudinary.com/dt97offnl/image/upload/v1784474322/WhatsApp_Image_2026-07-19_at_8.12.32_PM_mumrqq.jpg" alt="Andavar Ambulance Service Logo"></div>
+      <div>
+        <div class="logo-text-main">ANDAVAR</div>
+        <div class="logo-text-sub">Ambulance Service</div>
+      </div>
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#types">Ambulance Type</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#equipment">Medical Equipment</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#booking" class="nav-book"><i class="fas fa-calendar-check"></i> Book Now</a></li>
+      <li><a href="tel:+919360869598" class="nav-call"><i class="fas fa-phone"></i> Call Now</a></li>
+      <li class="privacy-nav-item"><a href="#privacy"><i class="fas fa-lock"></i>Privacy Policy</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-watermark" aria-hidden="true">
+    <i class="fas fa-truck-medical wm-icon wm-1" data-speed="0.12" data-depth="18"></i>
+    <i class="fas fa-heart-pulse wm-icon wm-amber wm-2" data-speed="0.22" data-depth="28"></i>
+    <i class="fas fa-staff-snake wm-icon wm-3" data-speed="0.3" data-depth="34"></i>
+    <i class="fas fa-plus wm-icon wm-amber wm-4" data-speed="0.4" data-depth="40"></i>
+    <i class="fas fa-kit-medical wm-icon wm-5" data-speed="0.18" data-depth="22"></i>
+  </div>
+  <svg class="ecg-watermark" viewBox="0 0 1200 100" preserveAspectRatio="none" aria-hidden="true">
+    <path class="ecg-line" d="M0,50 L260,50 L290,15 L320,85 L350,50 L420,50 L450,30 L480,70 L510,50 L1200,50"/>
+  </svg>
+  <div class="container hero-grid">
+    <div data-aos="fade-right">
+      <div class="hero-badge"><span class="dot"></span> 24/7 Emergency Ambulance</div>
+      <div class="hero-brand">Andavar Ambulance Service</div>
+      <h1>Fast, Reliable <span>Ambulance Care</span> When Every Second Counts</h1>
+      <p class="hero-sub">Andavar Ambulance Service has been serving families across Tamil Nadu with trusted emergency and hospital transfer support for over a decade. Call us anytime, day or night.</p>
+      <div class="hero-stats">
+        <div><div class="stat-num">10+</div><div class="stat-label">Years Experience</div></div>
+        <div><div class="stat-num">24/7</div><div class="stat-label">Availability</div></div>
+        <div><div class="stat-num">100%</div><div class="stat-label">Trusted Care</div></div>
+      </div>
+      <div class="hero-cta">
+        <a href="tel:+919360869598" class="btn-amber"><i class="fas fa-phone-volume"></i> Emergency Call</a>
+        <a href="https://wa.me/919360869598?text=Hello%2C%20I%20need%20an%20ambulance%20from%20Andavar%20Ambulance%20Service" target="_blank" class="btn-primary"><i class="fab fa-whatsapp"></i> WhatsApp Us</a>
+      </div>
+    </div>
+
+    <!-- HERO BOOKING CARD (right side, referenced from God Bless "Book an Ambulance" widget) -->
+    <div data-aos="fade-left" id="booking">
+      <div class="booking-card">
+        <div class="booking-card-header">
+          <i class="fas fa-calendar-check"></i>
+          <div><h2>Book an Ambulance</h2><p>Instant booking — sent via WhatsApp</p></div>
+        </div>
+        <div class="booking-card-body">
+          <div class="trip-tabs">
+            <button class="trip-tab active" onclick="switchTripTab('local',this)">🏙️ Local Service</button>
+            <button class="trip-tab" onclick="switchTripTab('outstation',this)">🛣️ Out Station Service</button>
+          </div>
+
+          <div id="localTripForm" class="trip-content active">
+            <div class="bk-form-row">
+              <div class="bk-group"><label>Patient Name</label><input type="text" id="lPatientName" placeholder="Full name"></div>
+              <div class="bk-group"><label>Your Mobile</label><input type="tel" id="lCallerMobile" placeholder="10-digit number"></div>
+            </div>
+            <div class="bk-group bk-location-wrap">
+              <label>📍 Pickup Location</label>
+              <input type="text" id="lPickup" placeholder="Street, Landmark, Area" autocomplete="off" oninput="bkHandleLocationInput(this,'lPickupSuggest')" onblur="bkCloseSuggestions('lPickupSuggest')">
+              <div class="bk-suggestions" id="lPickupSuggest"></div>
+            </div>
+            <div class="bk-group bk-location-wrap">
+              <label>🏥 Drop Location</label>
+              <input type="text" id="lDrop" placeholder="Hospital / Destination" autocomplete="off" oninput="bkHandleLocationInput(this,'lDropSuggest')" onblur="bkCloseSuggestions('lDropSuggest')">
+              <div class="bk-suggestions" id="lDropSuggest"></div>
+            </div>
+            <p class="toggle-hint" style="margin:-8px 0 12px 0;"><i class="fas fa-circle-info"></i> Tip: Not in the list? Just type the full address and continue.</p>
+            <div class="distance-banner" id="lDistanceBanner"><i class="fas fa-route"></i><div><div class="db-label">Approx Distance</div><div class="db-val" id="lDistanceVal">-</div></div></div>
+            <div class="bk-form-row">
+              <div class="bk-group"><label>Ambulance Type</label>
+                <select id="lAmbType">
+                  <option value="">Select Type</option>
+                  <option>ALS - Advanced Life Support</option>
+                  <option>BLS - Basic Life Support</option>
+                  <option>Mobile ICU</option>
+                  <option>Freezer Box Ambulance</option>
+                  <option>AC Ambulance</option>
+                  <option>Eeco / Omni Ambulance</option>
+                </select>
+              </div>
+              <div class="bk-group"><label>Date &amp; Time</label><input type="text" id="lDateTime" class="dt-display" readonly placeholder="Select date & time" onclick="openDTPicker('lDateTime')"></div>
+            </div>
+            <label class="toggle-label"><input type="checkbox" id="lRoundTrip" onchange="toggleReturnDate('local')"> Return Trip</label>
+            <p class="toggle-hint"><i class="fas fa-circle-info"></i> Check this box to add a return date &amp; time for the same trip</p>
+            <div class="bk-group" id="lReturnDateRow" style="display:none;"><label>🔁 Return Date &amp; Time</label><input type="text" id="lReturnDateTime" class="dt-display" readonly placeholder="Select return date & time" onclick="openDTPicker('lReturnDateTime')"></div>
+            <div class="bk-group"><label>Additional Notes</label><textarea id="lNotes" rows="2" placeholder="Medical condition, equipment needed, etc."></textarea></div>
+            <button class="btn-book" onclick="bookAmbulance('local')"><i class="fab fa-whatsapp"></i> Book via WhatsApp</button>
+            <p class="booking-note">✅ Your booking details will be sent to our team instantly</p>
+          </div>
+
+          <div id="outTripForm" class="trip-content" style="display:none;">
+            <div class="bk-form-row">
+              <div class="bk-group"><label>Patient Name</label><input type="text" id="oPatientName" placeholder="Full name"></div>
+              <div class="bk-group"><label>Your Mobile</label><input type="tel" id="oCallerMobile" placeholder="10-digit number"></div>
+            </div>
+            <div class="bk-group bk-location-wrap">
+              <label>📍 From City / Location</label>
+              <input type="text" id="oPickup" placeholder="Starting location" autocomplete="off" oninput="bkHandleLocationInput(this,'oPickupSuggest')" onblur="bkCloseSuggestions('oPickupSuggest')">
+              <div class="bk-suggestions" id="oPickupSuggest"></div>
+            </div>
+            <div class="bk-group bk-location-wrap">
+              <label>🏥 To City / Hospital</label>
+              <input type="text" id="oDrop" placeholder="Destination" autocomplete="off" oninput="bkHandleLocationInput(this,'oDropSuggest')" onblur="bkCloseSuggestions('oDropSuggest')">
+              <div class="bk-suggestions" id="oDropSuggest"></div>
+            </div>
+            <p class="toggle-hint" style="margin:-8px 0 12px 0;"><i class="fas fa-circle-info"></i> Tip: Not in the list? Just type the full address and continue.</p>
+            <div class="distance-banner" id="oDistanceBanner"><i class="fas fa-route"></i><div><div class="db-label">Approx Distance</div><div class="db-val" id="oDistanceVal">-</div></div></div>
+            <div class="bk-form-row">
+              <div class="bk-group"><label>Ambulance Type</label>
+                <select id="oAmbType">
+                  <option value="">Select Type</option>
+                  <option>ALS - Advanced Life Support</option>
+                  <option>BLS - Basic Life Support</option>
+                  <option>Mobile ICU</option>
+                  <option>Freezer Box Ambulance</option>
+                  <option>AC Ambulance</option>
+                  <option>Eeco / Omni Ambulance</option>
+                </select>
+              </div>
+              <div class="bk-group"><label>Date &amp; Time</label><input type="text" id="oDateTime" class="dt-display" readonly placeholder="Select date & time" onclick="openDTPicker('oDateTime')"></div>
+            </div>
+            <div class="bk-group"><label>Additional Notes</label><textarea id="oNotes" rows="2" placeholder="Medical condition, equipment needed, etc."></textarea></div>
+            <button class="btn-book" onclick="bookAmbulance('outstation')"><i class="fab fa-whatsapp"></i> Book via WhatsApp</button>
+            <p class="booking-note">✅ Your booking details will be sent to our team instantly</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EMERGENCY STRIP -->
+<div class="emergency-strip">
+  <div class="strip-inner">
+    <i class="fas fa-circle-exclamation"></i>
+    <p>In a medical emergency? Call <strong>93608 69598</strong> now — Andavar Ambulance Service is available 24/7 across Tamil Nadu.</p>
+  </div>
+</div>
+
+<!-- AMBULANCE TYPES -->
+<section id="types">
+  <div class="container">
+    <div class="section-tag center" style="display:block;width:fit-content;">Our Fleet</div>
+    <h2 class="section-title center">Ambulance <span>Types</span> We Offer</h2>
+    <p class="section-subtitle center">Choose the right vehicle for your situation — every ambulance is maintained and equipped for safe transport.</p>
+    <div class="types-grid">
+      <div class="type-card" data-aos="fade-up" data-aos-delay="0">
+        <div class="type-icon ic-als"><i class="fas fa-truck-medical"></i></div>
+        <h3>ALS – Advanced Life Support</h3>
+        <p>Cardiac monitor, defibrillator and ventilator support for critical emergencies.</p>
+      </div>
+      <div class="type-card" data-aos="fade-up" data-aos-delay="80">
+        <div class="type-icon ic-bls"><i class="fas fa-kit-medical"></i></div>
+        <h3>BLS – Basic Life Support</h3>
+        <p>Oxygen support, stretcher and first-aid essentials for stable patient transport.</p>
+      </div>
+      <div class="type-card" data-aos="fade-up" data-aos-delay="160">
+        <div class="type-icon ic-icu"><i class="fas fa-hospital"></i></div>
+        <h3>Mobile ICU</h3>
+        <p>A complete ICU setup on wheels for the most critical patient transfers.</p>
+      </div>
+      <div class="type-card" data-aos="fade-up" data-aos-delay="0">
+        <div class="type-icon ic-freezer"><i class="fas fa-snowflake"></i></div>
+        <h3>Freezer Box Ambulance</h3>
+        <p>Refrigerated transport handled with dignity and utmost care.</p>
+      </div>
+      <div class="type-card" data-aos="fade-up" data-aos-delay="80">
+        <div class="type-icon ic-ac"><i class="fas fa-wind"></i></div>
+        <h3>AC Ambulance</h3>
+        <p>Air-conditioned comfort for longer trips and patient ease.</p>
+      </div>
+      <div class="type-card" data-aos="fade-up" data-aos-delay="160">
+        <div class="type-icon ic-eeco"><i class="fas fa-car"></i></div>
+        <h3>Eeco / Omni Ambulance</h3>
+        <p>Compact and budget-friendly, ideal for narrow lanes and quick local trips.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery" style="background:var(--bg-soft);">
+  <div class="container">
+    <div class="section-tag center" style="display:block;width:fit-content;">Our Fleet Gallery</div>
+    <h2 class="section-title center">A Look At Our <span>Ambulances</span></h2>
+    <p class="section-subtitle center">Photos coming soon — cards below are ready for your Cloudinary image links. Replace the empty src="" on each &lt;img&gt; tag with your Cloudinary URL.</p>
+    <div class="gallery-grid">
+      <div class="gallery-card" data-aos="fade-up" data-aos-delay="0">
+        <div class="gallery-img-slot"><img src="https://res.cloudinary.com/dt97offnl/image/upload/v1784471540/WhatsApp_Image_2026-07-15_at_10.03.05_PM_1_ezvrv3.jpg" alt="Andavar Ambulance - ALS Ambulance" onload="this.style.display='block';this.parentElement.querySelector('i').style.display='none';this.parentElement.querySelector('span').style.display='none';" onerror="this.style.display='none'"><i class="fas fa-truck-medical"></i><span>Photo Coming Soon</span></div>
+        <div class="gallery-caption"><h4>ALS Ambulance</h4><p>Advanced life support vehicle</p></div>
+      </div>
+      <div class="gallery-card" data-aos="fade-up" data-aos-delay="60">
+        <div class="gallery-img-slot"><img src="https://res.cloudinary.com/dt97offnl/image/upload/v1784472958/BLS_Ambulance_nrs9ra.webp" alt="Andavar Ambulance - BLS Ambulance" onload="this.style.display='block';this.parentElement.querySelector('i').style.display='none';this.parentElement.querySelector('span').style.display='none';" onerror="this.style.display='none'"><i class="fas fa-kit-medical"></i><span>Photo Coming Soon</span></div>
+        <div class="gallery-caption"><h4>BLS Ambulance</h4><p>Basic life support transport</p></div>
+      </div>
+      <div class="gallery-card" data-aos="fade-up" data-aos-delay="120">
+        <div class="gallery-img-slot"><img src="https://res.cloudinary.com/dt97offnl/image/upload/v1784473433/mobile_ICU_ouhufi.png" alt="Andavar Ambulance - ICU Ambulance" onload="this.style.display='block';this.parentElement.querySelector('i').style.display='none';this.parentElement.querySelector('span').style.display='none';" onerror="this.style.display='none'"><i class="fas fa-hospital"></i><span>Photo Coming Soon</span></div>
+        <div class="gallery-caption"><h4>Mobile ICU</h4><p>Complete ICU on wheels</p></div>
+      </div>
+      <div class="gallery-card" data-aos="fade-up" data-aos-delay="180">
+        <div class="gallery-img-slot"><img src="https://res.cloudinary.com/dt97offnl/image/upload/v1784473761/product_dogd1k.jpg" alt="Andavar Ambulance - Freezer Box Ambulance" onload="this.style.display='block';this.parentElement.querySelector('i').style.display='none';this.parentElement.querySelector('span').style.display='none';" onerror="this.style.display='none'"><i class="fas fa-snowflake"></i><span>Photo Coming Soon</span></div>
+        <div class="gallery-caption"><h4>Freezer Box Ambulance</h4><p>Dignified, temperature-controlled transport</p></div>
+      </div>
+      <div class="gallery-card" data-aos="fade-up" data-aos-delay="0">
+        <div class="gallery-img-slot"><img src="https://res.cloudinary.com/dt97offnl/image/upload/v1784473745/Screenshot_2026-07-19_203845_tvvvyk.png" alt="Andavar Ambulance - AC Ambulance" onload="this.style.display='block';this.parentElement.querySelector('i').style.display='none';this.parentElement.querySelector('span').style.display='none';" onerror="this.style.display='none'"><i class="fas fa-wind"></i><span>Photo Coming Soon</span></div>
+        <div class="gallery-caption"><h4>AC Ambulance</h4><p>Comfortable long-distance travel</p></div>
+      </div>
+      <div class="gallery-card" data-aos="fade-up" data-aos-delay="60">
+        <div class="gallery-img-slot"><img src="https://res.cloudinary.com/dt97offnl/image/upload/v1784471539/WhatsApp_Image_2026-07-15_at_10.03.07_PM_j9vy6o.jpg" alt="Andavar Ambulance - Eeco Omni Ambulance" onload="this.style.display='block';this.parentElement.querySelector('i').style.display='none';this.parentElement.querySelector('span').style.display='none';" onerror="this.style.display='none'"><i class="fas fa-car"></i><span>Photo Coming Soon</span></div>
+        <div class="gallery-caption"><h4>Eeco / Omni Ambulance</h4><p>Compact vehicle for narrow lanes</p></div>
+      </div>
+      <div class="gallery-card" data-aos="fade-up" data-aos-delay="120">
+        <div class="gallery-img-slot"><img src="https://res.cloudinary.com/dt97offnl/image/upload/v1784473980/Response_team_ricsn9.jpg" alt="Andavar Ambulance - Response Team" onload="this.style.display='block';this.parentElement.querySelector('i').style.display='none';this.parentElement.querySelector('span').style.display='none';" onerror="this.style.display='none'"><i class="fas fa-user-nurse"></i><span>Photo Coming Soon</span></div>
+        <div class="gallery-caption"><h4>Our Response Team</h4><p>Trained and ready around the clock</p></div>
+      </div>
+      <div class="gallery-card" data-aos="fade-up" data-aos-delay="180">
+        <div class="gallery-img-slot"><img src="https://res.cloudinary.com/dt97offnl/image/upload/v1784473979/interior_ambualnce_k0fggu.jpg" alt="Andavar Ambulance - Interior Setup" onload="this.style.display='block';this.parentElement.querySelector('i').style.display='none';this.parentElement.querySelector('span').style.display='none';" onerror="this.style.display='none'"><i class="fas fa-heart-pulse"></i><span>Photo Coming Soon</span></div>
+        <div class="gallery-caption"><h4>Ambulance Interior</h4><p>Fully equipped for patient care</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MEDICAL EQUIPMENT -->
+<section id="equipment">
+  <div class="container">
+    <div class="section-tag center" style="display:block;width:fit-content;">On Board</div>
+    <h2 class="section-title center">Medical <span>Equipment</span></h2>
+    <p class="section-subtitle center">Every ambulance is equipped with life-saving gear, maintained to clinical standards. Select your ambulance type below.</p>
+
+    <div class="equip-tab-btns">
+      <button class="equip-tab-btn active" onclick="equipTabClick('als',this)"><i class="fas fa-bolt"></i> ALS Ambulance</button>
+      <button class="equip-tab-btn" onclick="equipTabClick('icu',this)"><i class="fas fa-hospital"></i> Mobile ICU</button>
+      <button class="equip-tab-btn" onclick="equipTabClick('bls',this)"><i class="fas fa-truck-medical"></i> BLS Ambulance</button>
+      <button class="equip-tab-btn" onclick="equipTabClick('freezer',this)"><i class="fas fa-snowflake"></i> Freezer Box</button>
+      <button class="equip-tab-btn" onclick="equipTabClick('acnonac',this)"><i class="fas fa-wind"></i> AC / Non-AC</button>
+      <button class="equip-tab-btn" onclick="equipTabClick('eeco',this)"><i class="fas fa-car"></i> Eeco &amp; Omni</button>
+    </div>
+
+    <div class="equip-panel active" id="panel-als">
+      <div class="equip-panel-header"><div class="equip-panel-icon"><i class="fas fa-bolt"></i></div><div><h3>ALS Ambulance</h3><p>Advanced Life Support — full critical care equipment for emergencies</p></div></div>
+      <div class="equip-cards-grid">
+        <div class="equip-card"><i class="fas fa-lungs"></i><span>Ventilator</span></div>
+        <div class="equip-card"><i class="fas fa-heart-pulse"></i><span>Patient Monitor</span></div>
+        <div class="equip-card"><i class="fas fa-syringe"></i><span>Syringe Pump</span></div>
+        <div class="equip-card"><i class="fas fa-wind"></i><span>CPAP / BiPAP Machine</span></div>
+        <div class="equip-card"><i class="fas fa-fan"></i><span>Suction Machine</span></div>
+        <div class="equip-card"><i class="fas fa-droplet"></i><span>Infusion Pump</span></div>
+        <div class="equip-card"><i class="fas fa-smog"></i><span>Nebulizer</span></div>
+        <div class="equip-card"><i class="fas fa-bed-pulse"></i><span>Wheel Stretcher</span></div>
+        <div class="equip-card"><i class="fas fa-ruler-horizontal"></i><span>Spine Board</span></div>
+        <div class="equip-card"><i class="fas fa-wheelchair"></i><span>Wheelchair</span></div>
+      </div>
+    </div>
+
+    <div class="equip-panel" id="panel-icu">
+      <div class="equip-panel-header"><div class="equip-panel-icon"><i class="fas fa-hospital"></i></div><div><h3>Mobile ICU Ambulance</h3><p>Intensive Care Unit on wheels — complete critical monitoring &amp; life support</p></div></div>
+      <div class="equip-cards-grid">
+        <div class="equip-card"><i class="fas fa-wind"></i><span>Oxygen Cylinder &amp; Flow Meter</span></div>
+        <div class="equip-card"><i class="fas fa-heart-pulse"></i><span>Patient Monitor</span></div>
+        <div class="equip-card"><i class="fas fa-droplet"></i><span>Infusion Pump</span></div>
+        <div class="equip-card"><i class="fas fa-syringe"></i><span>Syringe Pump</span></div>
+        <div class="equip-card"><i class="fas fa-lungs"></i><span>Ambu Bag (BVM)</span></div>
+        <div class="equip-card"><i class="fas fa-heart"></i><span>BP Apparatus</span></div>
+        <div class="equip-card"><i class="fas fa-vial"></i><span>Glucometer</span></div>
+        <div class="equip-card"><i class="fas fa-pills"></i><span>Emergency Medicines</span></div>
+        <div class="equip-card"><i class="fas fa-car-battery"></i><span>Power Backup System</span></div>
+        <div class="equip-card"><i class="fas fa-signal"></i><span>Communication System</span></div>
+        <div class="equip-card"><i class="fas fa-location-crosshairs"></i><span>GPS Tracking</span></div>
+        <div class="equip-card"><i class="fas fa-video"></i><span>Live Video Streaming</span></div>
+      </div>
+    </div>
+
+    <div class="equip-panel" id="panel-bls">
+      <div class="equip-panel-header"><div class="equip-panel-icon"><i class="fas fa-truck-medical"></i></div><div><h3>BLS Ambulance</h3><p>Basic Life Support — essential emergency equipment for stable patient transport</p></div></div>
+      <div class="equip-cards-grid">
+        <div class="equip-card"><i class="fas fa-wind"></i><span>Oxygen Cylinder</span></div>
+        <div class="equip-card"><i class="fas fa-suitcase-medical"></i><span>First Aid Kit</span></div>
+        <div class="equip-card"><i class="fas fa-heart"></i><span>BP Apparatus</span></div>
+        <div class="equip-card"><i class="fas fa-vial"></i><span>Glucometer</span></div>
+        <div class="equip-card"><i class="fas fa-fan"></i><span>Suction Machine</span></div>
+        <div class="equip-card"><i class="fas fa-wheelchair"></i><span>Wheelchair</span></div>
+        <div class="equip-card"><i class="fas fa-bed-pulse"></i><span>Folding Stretcher</span></div>
+        <div class="equip-card"><i class="fas fa-bone"></i><span>Splints</span></div>
+        <div class="equip-card"><i class="fas fa-hand-holding-medical"></i><span>Cervical Collar</span></div>
+        <div class="equip-card"><i class="fas fa-signal"></i><span>Communication System</span></div>
+      </div>
+    </div>
+
+    <div class="equip-panel" id="panel-freezer">
+      <div class="equip-panel-header"><div class="equip-panel-icon"><i class="fas fa-snowflake"></i></div><div><h3>Freezer Box Ambulance</h3><p>Dignified &amp; respectful deceased transport with temperature-controlled care</p></div></div>
+      <div class="equip-cards-grid">
+        <div class="equip-card"><i class="fas fa-snowflake"></i><span>Dead Body Freezer Box</span></div>
+        <div class="equip-card"><i class="fas fa-temperature-low"></i><span>Temperature Control</span></div>
+        <div class="equip-card"><i class="fas fa-location-crosshairs"></i><span>GPS Tracking</span></div>
+        <div class="equip-card"><i class="fas fa-video"></i><span>Live Camera Monitoring</span></div>
+        <div class="equip-card"><i class="fas fa-shield-heart"></i><span>Safe Transportation</span></div>
+        <div class="equip-card"><i class="fas fa-soap"></i><span>Hygienic Environment</span></div>
+      </div>
+    </div>
+
+    <div class="equip-panel" id="panel-acnonac">
+      <div class="equip-panel-header"><div class="equip-panel-icon"><i class="fas fa-wind"></i></div><div><h3>AC / Non-AC Ambulance</h3><p>Comfortable patient transport with essential monitoring equipment</p></div></div>
+      <div class="equip-cards-grid">
+        <div class="equip-card"><i class="fas fa-bed-pulse"></i><span>Main Stretcher</span></div>
+        <div class="equip-card"><i class="fas fa-wheelchair"></i><span>Wheelchair</span></div>
+        <div class="equip-card"><i class="fas fa-wind"></i><span>Oxygen Cylinder</span></div>
+        <div class="equip-card"><i class="fas fa-suitcase-medical"></i><span>First Aid Kit</span></div>
+        <div class="equip-card"><i class="fas fa-heart"></i><span>BP Apparatus</span></div>
+        <div class="equip-card"><i class="fas fa-signal"></i><span>Communication System</span></div>
+        <div class="equip-card"><i class="fas fa-location-crosshairs"></i><span>GPS Tracking</span></div>
+        <div class="equip-card"><i class="fas fa-shield-heart"></i><span>Safe Transportation</span></div>
+      </div>
+    </div>
+
+    <div class="equip-panel" id="panel-eeco">
+      <div class="equip-panel-header"><div class="equip-panel-icon"><i class="fas fa-car"></i></div><div><h3>Eeco &amp; Omni Ambulance</h3><p>Compact, budget-friendly transport for narrow lanes and quick local trips</p></div></div>
+      <div class="equip-cards-grid">
+        <div class="equip-card"><i class="fas fa-bed-pulse"></i><span>Basic Stretcher</span></div>
+        <div class="equip-card"><i class="fas fa-wind"></i><span>Oxygen Support</span></div>
+        <div class="equip-card"><i class="fas fa-suitcase-medical"></i><span>First Aid Kit</span></div>
+        <div class="equip-card"><i class="fas fa-signal"></i><span>Communication System</span></div>
+        <div class="equip-card"><i class="fas fa-location-crosshairs"></i><span>GPS Tracking</span></div>
+        <div class="equip-card"><i class="fas fa-shield-heart"></i><span>Safe Transportation</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" style="background:var(--bg-soft);">
+  <div class="container">
+    <div class="about-grid">
+      <div data-aos="fade-right">
+        <div class="owner-card">
+          <div class="owner-avatar-flip">
+            <div class="owner-avatar-flip-inner">
+              <div class="owner-avatar-face front"><img src="https://res.cloudinary.com/dt97offnl/image/upload/v1784471537/WhatsApp_Image_2026-07-15_at_10.03.18_PM_bexxm9.jpg" alt="Manikandan M - Founder, Andavar Ambulance Service"></div>
+              <div class="owner-avatar-face back"><img src="https://res.cloudinary.com/dt97offnl/image/upload/v1784471537/WhatsApp_Image_2026-07-15_at_10.03.18_PM_bexxm9.jpg" alt="Manikandan M - Founder, Andavar Ambulance Service"></div>
+            </div>
+          </div>
+          <h4>Manikandan M</h4>
+          <div class="role">Founder &amp; Owner</div>
+          <p style="color:var(--text-dim);font-size:13.5px;line-height:1.7;">Leading Andavar Ambulance Service with a personal commitment to fast, compassionate emergency care for every family we serve.</p>
+          <div class="owner-exp">
+            <div class="num">10+</div>
+            <div class="lbl">Years of Experience</div>
+          </div>
+        </div>
+      </div>
+      <div data-aos="fade-left">
+        <div class="section-tag">About Us</div>
+        <h2 class="section-title">A Decade of Trusted <span>Ambulance Service</span> in Tamil Nadu</h2>
+        <p style="color:var(--text-dim);font-size:15px;line-height:1.8;margin-bottom:10px;">Based in Chennai, Andavar Ambulance Service has spent over 10 years providing dependable emergency response, hospital transfers, and outstation ambulance trips for families across Tamil Nadu. Every call is handled with urgency, care, and respect.</p>
+        <ul class="about-points">
+          <li>
+            <i class="fas fa-clock"></i>
+            <div><strong>Always Available</strong><p>Our team and vehicles are ready 24 hours a day, 7 days a week — no exceptions.</p></div>
+          </li>
+          <li>
+            <i class="fas fa-user-doctor"></i>
+            <div><strong>Trained &amp; Experienced Team</strong><p>A decade of hands-on experience handling emergencies with calm, capable care.</p></div>
+          </li>
+          <li>
+            <i class="fas fa-route"></i>
+            <div><strong>Local &amp; Outstation Trips</strong><p>From nearby hospitals to long-distance transfers, we cover it all.</p></div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="container">
+    <div class="section-tag center" style="display:block;width:fit-content;">Get In Touch</div>
+    <h2 class="section-title center">Contact <span>Andavar Ambulance</span></h2>
+    <p class="section-subtitle center">Reach out anytime — we respond fast, especially in emergencies.</p>
+    <div class="contact-grid">
+      <div class="contact-form" data-aos="fade-right">
+        <input type="text" id="enquiryName" placeholder="Your Name" required>
+        <input type="tel" id="enquiryPhone" placeholder="Your Phone Number" required>
+        <select id="enquiryService">
+          <option value="">Select Service</option>
+          <option>Local Ambulance Trip</option>
+          <option>Outstation Ambulance Trip</option>
+          <option>ICU / Critical Care Transfer</option>
+          <option>General Enquiry</option>
+        </select>
+        <textarea id="enquiryMsg" placeholder="Your Message" rows="4"></textarea>
+        <button onclick="sendEnquiry()" class="btn-primary" style="width:100%;justify-content:center;"><i class="fab fa-whatsapp"></i> Send via WhatsApp</button>
+      </div>
+      <div class="contact-side" data-aos="fade-left">
+        <div class="contact-info-card">
+          <i class="fas fa-phone"></i>
+          <div><strong>Call Anytime</strong><span>93608 69598 (Primary) · 95660 09943</span></div>
+        </div>
+        <div class="contact-info-card">
+          <i class="fab fa-whatsapp"></i>
+          <div><strong>WhatsApp</strong><span>93608 69598</span></div>
+        </div>
+        <div class="contact-info-card">
+          <i class="fas fa-location-dot"></i>
+          <div><strong>Address</strong><span>1620, 16th Main Road, Anna Nagar West, Chennai - 600040</span></div>
+        </div>
+        <div class="contact-info-card">
+          <i class="fab fa-instagram"></i>
+          <div><strong>Instagram</strong><span>@andavarambulanceservice</span></div>
+        </div>
+        <div class="contact-info-card">
+          <i class="fas fa-star"></i>
+          <div><strong>Google Reviews</strong><span><a href="https://share.google/WO1spPLboWfjCnXom" target="_blank">View our Google Business Profile</a></span></div>
+        </div>
+        <div class="contact-info-card">
+          <i class="fas fa-clock"></i>
+          <div><strong>Available</strong><span>24 Hours, 7 Days a Week</span></div>
+        </div>
+      </div>
+    </div>
+
+    <p style="text-align:center;margin-top:36px;font-size:13.5px;color:var(--text-faint);">1620, 16th Main Road, Anna Nagar West, Chennai - 600040 &middot; <a href="https://www.google.com/maps/place/ANDAVAR+AMBULANCE+SERVICE/@13.128702,80.2848267,16.55z/data=!4m6!3m5!1s0x3a526f827e9501e9:0x6de9623473b01ead!8m2!3d13.1285481!4d80.2848423!16s%2Fg%2F11vxlxld7p" target="_blank" style="color:var(--teal);">Get Directions</a></p>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section id="reviews" style="background:var(--bg-soft);">
+  <div class="container">
+    <div class="section-tag center" style="display:block;width:fit-content;">Customer Reviews</div>
+    <h2 class="section-title center">What Our <span>Customers</span> Say</h2>
+    <p class="section-subtitle center">Real feedback from families we've had the privilege to serve.</p>
+    <div class="reviews-grid">
+      <div class="review-card" data-aos="fade-up" data-aos-delay="0">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">"Called at 2 AM for my father and the ambulance reached in under 15 minutes. Truly grateful for their quick response and caring staff."</p>
+        <div class="review-author"><div class="review-avatar">RK</div><div><strong>Ravi Kumar</strong><span>Anna Nagar, Chennai</span></div></div>
+      </div>
+      <div class="review-card" data-aos="fade-up" data-aos-delay="80">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">"Booked an outstation ambulance to Vellore for a family transfer. The vehicle was clean, well equipped, and the driver was extremely professional."</p>
+        <div class="review-author"><div class="review-avatar">SP</div><div><strong>Suganya P.</strong><span>Ambattur, Chennai</span></div></div>
+      </div>
+      <div class="review-card" data-aos="fade-up" data-aos-delay="160">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">"Andavar Ambulance handled a very difficult situation for our family with so much dignity and care. Highly recommend their service."</p>
+        <div class="review-author"><div class="review-avatar">MJ</div><div><strong>Muthu Janakiraman</strong><span>Kolathur, Chennai</span></div></div>
+      </div>
+      <div class="review-card" data-aos="fade-up" data-aos-delay="0">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">"Booking via WhatsApp was so simple and fast. Got confirmation within minutes and the ambulance arrived right on time."</p>
+        <div class="review-author"><div class="review-avatar">DA</div><div><strong>Divya Anand</strong><span>Villivakkam, Chennai</span></div></div>
+      </div>
+      <div class="review-card" data-aos="fade-up" data-aos-delay="80">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">"Reliable and affordable. We've used their service twice now for hospital transfers and both times were smooth and stress-free."</p>
+        <div class="review-author"><div class="review-avatar">TS</div><div><strong>Thangaraj S.</strong><span>Anna Nagar West, Chennai</span></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRIVACY POLICY (linked only from hamburger/mobile menu) -->
+<section id="privacy" class="privacy-section">
+  <div class="container privacy-inner">
+    <div class="section-tag" style="display:block;width:fit-content;">Privacy Policy</div>
+    <h2 class="section-title">Privacy Policy — Andavar Ambulance Service</h2>
+    <p class="pp-date"><strong>Last Updated:</strong> July 2026 &nbsp;|&nbsp; <strong>Effective Date:</strong> July 2026</p>
+
+    <h3>1. Who We Are</h3>
+    <p>Andavar Ambulance Service ("we", "our", "us") provides 24/7 emergency medical transport and hospital transfer services across Tamil Nadu, based in Chennai. We are committed to protecting your privacy in accordance with applicable Indian laws.</p>
+
+    <h3>2. Information We Collect</h3>
+    <p>When you use our website or contact us, we may collect:</p>
+    <ul>
+      <li><strong>Personal Information:</strong> Name, mobile number, and location details you voluntarily provide when filling our booking or enquiry form.</li>
+      <li><strong>Location Data:</strong> Pickup and drop locations entered in our booking form to calculate distance estimates. This data is processed to generate your booking summary and sent via WhatsApp to our team.</li>
+      <li><strong>Usage Data:</strong> Basic browser and device information collected automatically when you visit our website.</li>
+    </ul>
+
+    <h3>3. How We Use Your Information</h3>
+    <ul>
+      <li>To process and confirm ambulance bookings via WhatsApp.</li>
+      <li>To respond to your enquiries and provide customer support.</li>
+      <li>To improve our website and service.</li>
+    </ul>
+
+    <h3>4. Data Sharing &amp; Third Parties</h3>
+    <p>We do <strong>not</strong> sell your personal information. We may share data with:</p>
+    <ul>
+      <li><strong>WhatsApp:</strong> Booking and enquiry details are transmitted via WhatsApp to coordinate your ambulance.</li>
+      <li><strong>Location Suggestions:</strong> Pickup/drop location suggestions and approximate distance are calculated using a built-in list of cities and towns in Tamil Nadu, Karnataka, Kerala and Andhra Pradesh — no location data is sent to any external mapping service during this step.</li>
+      <li><strong>Legal Authorities:</strong> If required by law or to protect public safety.</li>
+    </ul>
+
+    <h3>5. Data Security</h3>
+    <p>We implement reasonable technical measures to protect your data. However, no internet transmission is 100% secure.</p>
+
+    <h3>6. Your Rights</h3>
+    <p>You have the right to access, correct, or request deletion of your personal data. To exercise these rights, contact us at <a href="tel:+919360869598">93608 69598</a>.</p>
+
+    <h3>7. Children's Privacy</h3>
+    <p>Our services are not directed at children under 13. We do not knowingly collect personal data from children.</p>
+
+    <h3>8. Changes to This Policy</h3>
+    <p>We may update this Privacy Policy periodically. Changes will be posted on this page with an updated "Last Updated" date. Continued use of our site after changes constitutes acceptance of the updated policy.</p>
+
+    <h3>9. Contact Us</h3>
+    <p>For any privacy concerns or questions, contact us at:<br>
+    <strong>Andavar Ambulance Service</strong><br>
+    1620, 16th Main Road, Anna Nagar West, Chennai - 600040<br>
+    Phone: <a href="tel:+919360869598">93608 69598</a></p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div class="logo">
+        <div class="logo-badge"><img src="https://res.cloudinary.com/dt97offnl/image/upload/v1784474322/WhatsApp_Image_2026-07-19_at_8.12.32_PM_mumrqq.jpg" alt="Andavar Ambulance Service Logo"></div>
+        <div>
+          <div class="logo-text-main">ANDAVAR</div>
+          <div class="logo-text-sub">Ambulance Service</div>
+        </div>
+      </div>
+      <p>Serving Tamil Nadu with trusted, 24/7 ambulance care for over 10 years. Founded and led by Manikandan M.</p>
+      <div class="social-links">
+        <a href="https://wa.me/919360869598" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://www.instagram.com/andavarambulanceservice?igsh=MWF5N29ya2dzbjNubg==" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://share.google/WO1spPLboWfjCnXom" target="_blank"><i class="fas fa-star"></i></a>
+        <a href="tel:+919360869598"><i class="fas fa-phone"></i></a>
+      </div>
+    </div>
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#types">Ambulance Type</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#equipment">Medical Equipment</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-contact">
+      <h4>Contact Us</h4>
+      <p><i class="fas fa-phone"></i> 93608 69598 (Primary)</p>
+      <p><i class="fas fa-phone"></i> 95660 09943</p>
+      <p><i class="fas fa-location-dot"></i> 1620, 16th Main Road, Anna Nagar West, Chennai - 600040</p>
+      <p><i class="fas fa-clock"></i> Open 24/7</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2026 Andavar Ambulance Service. All rights reserved.</p>
+  </div>
+</footer>
+
+<!-- FLOATING BUTTONS -->
+<div class="floating-buttons">
+  <a href="https://wa.me/919360869598?text=Hello%2C%20I%20need%20an%20ambulance%20from%20Andavar%20Ambulance%20Service" class="float-btn whatsapp-btn" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+  <a href="tel:+919360869598" class="float-btn call-btn" title="Call Now"><i class="fas fa-phone"></i></a>
+</div>
+
+<!-- CUSTOM DATE & TIME PICKER MODAL -->
+<div class="dt-modal-overlay" id="dtModalOverlay">
+  <div class="dt-modal">
+    <h4>Select Date &amp; Time</h4>
+    <div class="bk-group"><label>Date</label><input type="date" id="dtModalDate"></div>
+    <div class="dt-time-row">
+      <div class="bk-group"><label>Hour</label><select id="dtModalHour"></select></div>
+      <div class="bk-group"><label>Minute</label><select id="dtModalMinute"><option>00</option><option>15</option><option>30</option><option>45</option></select></div>
+      <div class="bk-group"><label>AM/PM</label><select id="dtModalAmPm"><option>AM</option><option>PM</option></select></div>
+    </div>
+    <div class="dt-modal-actions">
+      <button type="button" class="dt-cancel" onclick="closeDTPicker()">Cancel</button>
+      <button type="button" class="dt-ok" onclick="confirmDTPicker()">OK</button>
+    </div>
+  </div>
+</div>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+AOS.init({ duration: 800, once: true });
+
+/* Hamburger */
+const hamburger = document.getElementById('hamburger');
+const navLinks = document.getElementById('navLinks');
+hamburger.addEventListener('click', () => {
+  hamburger.classList.toggle('active');
+  navLinks.classList.toggle('active');
+});
+navLinks.querySelectorAll('a').forEach(link => {
+  link.addEventListener('click', () => { navLinks.classList.remove('active'); hamburger.classList.remove('active'); });
+});
+
+/* ===== 5D Parallax Watermark (scroll speed + mouse tilt) ===== */
+const heroEl = document.querySelector('.hero');
+const wmIcons = document.querySelectorAll('.wm-icon');
+let mx = 0, my = 0;
+heroEl.addEventListener('mousemove', (e) => {
+  const rect = heroEl.getBoundingClientRect();
+  mx = (e.clientX - rect.left - rect.width / 2) / rect.width;
+  my = (e.clientY - rect.top - rect.height / 2) / rect.height;
+});
+function runParallax() {
+  const scrollY = window.scrollY;
+  wmIcons.forEach(el => {
+    const speed = parseFloat(el.dataset.speed) || 0.2;
+    const depth = parseFloat(el.dataset.depth) || 20;
+    const ty = -scrollY * speed;
+    const px = mx * depth;
+    const py = my * depth;
+    const rot = mx * 5;
+    el.style.transform = `translate3d(${px}px, ${ty + py}px, 0) rotate(${rot}deg)`;
+  });
+  requestAnimationFrame(runParallax);
+}
+requestAnimationFrame(runParallax);
+
+/* Trip tabs (hero booking card) */
+function switchTripTab(type, el) {
+  document.querySelectorAll('.trip-tab').forEach(b => b.classList.remove('active'));
+  el.classList.add('active');
+  document.getElementById('localTripForm').style.display = type === 'local' ? 'block' : 'none';
+  document.getElementById('outTripForm').style.display = type === 'outstation' ? 'block' : 'none';
+}
+function toggleReturnDate(scope) {
+  const prefix = scope === 'local' ? 'l' : 'o';
+  const show = document.getElementById(prefix + 'RoundTrip').checked;
+  document.getElementById(prefix + 'ReturnDateRow').style.display = show ? 'block' : 'none';
+}
+
+/* Equipment tabs */
+function equipTabClick(type, el) {
+  document.querySelectorAll('.equip-tab-btn').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.equip-panel').forEach(c => c.classList.remove('active'));
+  document.getElementById('panel-' + type).classList.add('active');
+  el.classList.add('active');
+}
+
+/* ============================================================
+   Location autocomplete + approx distance — offline dataset,
+   same approach used on the God Bless Ambulance site (no live
+   API calls, so it works reliably everywhere, including inside
+   sandboxed previews).
+   ============================================================ */
+var LOC = [
+/* ── Tamil Nadu – Cities & Towns ── */
+{n:'Chennai',s:'Tamil Nadu'},{n:'Coimbatore',s:'Tamil Nadu'},{n:'Madurai',s:'Tamil Nadu'},
+{n:'Trichy',s:'Tamil Nadu'},{n:'Salem',s:'Tamil Nadu'},{n:'Tirunelveli',s:'Tamil Nadu'},
+{n:'Vellore',s:'Tamil Nadu'},{n:'Erode',s:'Tamil Nadu'},{n:'Thoothukudi',s:'Tamil Nadu'},
+{n:'Tiruppur',s:'Tamil Nadu'},{n:'Thanjavur',s:'Tamil Nadu'},{n:'Dindigul',s:'Tamil Nadu'},
+{n:'Kanchipuram',s:'Tamil Nadu'},{n:'Kumbakonam',s:'Tamil Nadu'},{n:'Cuddalore',s:'Tamil Nadu'},
+{n:'Nagapattinam',s:'Tamil Nadu'},{n:'Tiruvannamalai',s:'Tamil Nadu'},{n:'Chengalpattu',s:'Tamil Nadu'},
+{n:'Puducherry',s:'Tamil Nadu'},{n:'Karur',s:'Tamil Nadu'},{n:'Namakkal',s:'Tamil Nadu'},
+{n:'Virudhunagar',s:'Tamil Nadu'},{n:'Sivakasi',s:'Tamil Nadu'},{n:'Ramanathapuram',s:'Tamil Nadu'},
+{n:'Dharmapuri',s:'Tamil Nadu'},{n:'Krishnagiri',s:'Tamil Nadu'},{n:'Tiruvarur',s:'Tamil Nadu'},
+{n:'Ariyalur',s:'Tamil Nadu'},{n:'Perambalur',s:'Tamil Nadu'},{n:'Kallakurichi',s:'Tamil Nadu'},
+{n:'Ranipet',s:'Tamil Nadu'},{n:'Viluppuram',s:'Tamil Nadu'},{n:'Mayiladuthurai',s:'Tamil Nadu'},
+{n:'Tenkasi',s:'Tamil Nadu'},{n:'Tirupattur',s:'Tamil Nadu'},{n:'Chidambaram',s:'Tamil Nadu'},
+{n:'Pollachi',s:'Tamil Nadu'},{n:'Mettupalayam',s:'Tamil Nadu'},{n:'Ooty',s:'Tamil Nadu'},
+{n:'Kodaikanal',s:'Tamil Nadu'},{n:'Hosur',s:'Tamil Nadu'},{n:'Ambur',s:'Tamil Nadu'},
+{n:'Vaniyambadi',s:'Tamil Nadu'},{n:'Gudiyatham',s:'Tamil Nadu'},{n:'Palani',s:'Tamil Nadu'},
+{n:'Arakkonam',s:'Tamil Nadu'},{n:'Tindivanam',s:'Tamil Nadu'},{n:'Vridhachalam',s:'Tamil Nadu'},
+{n:'Sriperumbudur',s:'Tamil Nadu'},{n:'Tambaram',s:'Tamil Nadu'},{n:'Avadi',s:'Tamil Nadu'},
+{n:'Ambattur',s:'Tamil Nadu'},{n:'Porur',s:'Tamil Nadu'},{n:'Sholinganallur',s:'Tamil Nadu'},
+{n:'Perungudi',s:'Tamil Nadu'},{n:'Kelambakkam',s:'Tamil Nadu'},{n:'Siruseri',s:'Tamil Nadu'},
+{n:'Maraimalai Nagar',s:'Tamil Nadu'},{n:'Guduvanchery',s:'Tamil Nadu'},{n:'Poonamallee',s:'Tamil Nadu'},
+/* ── Chennai Areas ── */
+{n:'Kottivakkam',s:'Chennai'},{n:'Velachery',s:'Chennai'},{n:'Adyar',s:'Chennai'},
+{n:'Anna Nagar',s:'Chennai'},{n:'Anna Nagar West',s:'Chennai'},{n:'T. Nagar',s:'Chennai'},{n:'Nungambakkam',s:'Chennai'},
+{n:'Mylapore',s:'Chennai'},{n:'Besant Nagar',s:'Chennai'},{n:'Perambur',s:'Chennai'},
+{n:'Chromepet',s:'Chennai'},{n:'Pallavaram',s:'Chennai'},
+{n:'Medavakkam',s:'Chennai'},{n:'Thoraipakkam',s:'Chennai'},{n:'Perungalathur',s:'Chennai'},
+{n:'Mogappair',s:'Chennai'},{n:'Kolathur',s:'Chennai'},{n:'Villivakkam',s:'Chennai'},
+{n:'Tondiarpet',s:'Chennai'},{n:'Royapuram',s:'Chennai'},{n:'Washermanpet',s:'Chennai'},
+{n:'Egmore',s:'Chennai'},{n:'Kilpauk',s:'Chennai'},{n:'Chetpet',s:'Chennai'},
+{n:'Kodambakkam',s:'Chennai'},{n:'Vadapalani',s:'Chennai'},{n:'Ashok Nagar',s:'Chennai'},
+{n:'KK Nagar',s:'Chennai'},{n:'Virugambakkam',s:'Chennai'},{n:'Saidapet',s:'Chennai'},
+/* ── Chennai Hospitals ── */
+{n:'Apollo Hospital',s:'Greams Road, Chennai'},{n:'Fortis Malar Hospital',s:'Adyar, Chennai'},
+{n:'MIOT International',s:'Manapakkam, Chennai'},{n:'Govt General Hospital',s:'Park Town, Chennai'},
+{n:'Sri Ramachandra Hospital',s:'Porur, Chennai'},{n:'Kauvery Hospital',s:'Alwarpet, Chennai'},
+{n:'MGM Healthcare',s:'Nelson Manickam Road, Chennai'},{n:'Gleneagles Global Hospital',s:'Perumbakkam, Chennai'},
+{n:'Stanley Medical College Hospital',s:'Park Town, Chennai'},{n:'Rajiv Gandhi Govt Hospital',s:'Park Town, Chennai'},
+{n:'VHS Hospital',s:'Taramani, Chennai'},{n:'Vijaya Hospital',s:'Vadapalani, Chennai'},
+{n:'Chennai Airport (MAA)',s:'Tirusulam, Chennai'},
+/* ── Kerala ── */
+{n:'Thiruvananthapuram',s:'Kerala'},{n:'Kochi',s:'Kerala'},{n:'Kozhikode',s:'Kerala'},
+{n:'Thrissur',s:'Kerala'},{n:'Kollam',s:'Kerala'},{n:'Kannur',s:'Kerala'},
+{n:'Palakkad',s:'Kerala'},{n:'Alappuzha',s:'Kerala'},{n:'Malappuram',s:'Kerala'},
+{n:'Kottayam',s:'Kerala'},{n:'Kasaragod',s:'Kerala'},{n:'Idukki',s:'Kerala'},
+{n:'Munnar',s:'Kerala'},{n:'Thekkady',s:'Kerala'},{n:'Wayanad',s:'Kerala'},
+{n:'Kalpetta',s:'Kerala'},{n:'Pathanamthitta',s:'Kerala'},{n:'Thalassery',s:'Kerala'},
+{n:'Manjeri',s:'Kerala'},{n:'Tirur',s:'Kerala'},{n:'Ponnani',s:'Kerala'},
+{n:'Ottapalam',s:'Kerala'},{n:'Chalakudy',s:'Kerala'},{n:'Perinthalmanna',s:'Kerala'},
+{n:'Vatakara',s:'Kerala'},{n:'Ernakulam',s:'Kerala'},{n:'Aluva',s:'Kerala'},
+{n:'Angamaly',s:'Kerala'},{n:'Perumbavoor',s:'Kerala'},{n:'Muvattupuzha',s:'Kerala'},
+{n:'Thodupuzha',s:'Kerala'},{n:'Pala',s:'Kerala'},{n:'Changanacherry',s:'Kerala'},
+{n:'Kayamkulam',s:'Kerala'},{n:'Karunagappally',s:'Kerala'},{n:'Varkala',s:'Kerala'},
+{n:'Neyyattinkara',s:'Kerala'},{n:'Attingal',s:'Kerala'},{n:'Nedumangad',s:'Kerala'},
+/* ── Karnataka ── */
+{n:'Bangalore',s:'Karnataka'},{n:'Mysore',s:'Karnataka'},{n:'Mangalore',s:'Karnataka'},
+{n:'Hubli',s:'Karnataka'},{n:'Belgaum',s:'Karnataka'},{n:'Gulbarga',s:'Karnataka'},
+{n:'Davangere',s:'Karnataka'},{n:'Bellary',s:'Karnataka'},{n:'Bijapur',s:'Karnataka'},
+{n:'Shimoga',s:'Karnataka'},{n:'Tumkur',s:'Karnataka'},{n:'Coorg',s:'Karnataka'},
+{n:'Udupi',s:'Karnataka'},{n:'Chikmagalur',s:'Karnataka'},{n:'Hassan',s:'Karnataka'},
+{n:'Raichur',s:'Karnataka'},{n:'Bidar',s:'Karnataka'},{n:'Bagalkot',s:'Karnataka'},
+{n:'Dharwad',s:'Karnataka'},{n:'Gadag',s:'Karnataka'},{n:'Koppal',s:'Karnataka'},
+{n:'Chitradurga',s:'Karnataka'},{n:'Kolar',s:'Karnataka'},{n:'Mandya',s:'Karnataka'},
+{n:'Chamarajanagar',s:'Karnataka'},{n:'Kodagu',s:'Karnataka'},{n:'Chikkaballapur',s:'Karnataka'},
+{n:'Robertsonpet',s:'Karnataka'},{n:'Hospet',s:'Karnataka'},{n:'Gangavati',s:'Karnataka'},
+/* ── Bangalore Areas ── */
+{n:'Whitefield',s:'Bangalore'},{n:'Electronic City',s:'Bangalore'},{n:'Koramangala',s:'Bangalore'},
+{n:'Indiranagar',s:'Bangalore'},{n:'Jayanagar',s:'Bangalore'},{n:'Bannerghatta Road',s:'Bangalore'},
+{n:'Hebbal',s:'Bangalore'},{n:'Yelahanka',s:'Bangalore'},{n:'Marathahalli',s:'Bangalore'},
+{n:'HSR Layout',s:'Bangalore'},{n:'BTM Layout',s:'Bangalore'},{n:'JP Nagar',s:'Bangalore'},
+{n:'Rajajinagar',s:'Bangalore'},{n:'Malleshwaram',s:'Bangalore'},{n:'Cunningham Road',s:'Bangalore'},
+/* ── Andhra Pradesh ── */
+{n:'Vijayawada',s:'Andhra Pradesh'},{n:'Visakhapatnam',s:'Andhra Pradesh'},{n:'Guntur',s:'Andhra Pradesh'},
+{n:'Nellore',s:'Andhra Pradesh'},{n:'Tirupati',s:'Andhra Pradesh'},{n:'Kurnool',s:'Andhra Pradesh'},
+{n:'Rajahmundry',s:'Andhra Pradesh'},{n:'Kadapa',s:'Andhra Pradesh'},{n:'Kakinada',s:'Andhra Pradesh'},
+{n:'Anantapur',s:'Andhra Pradesh'},{n:'Vizianagaram',s:'Andhra Pradesh'},{n:'Eluru',s:'Andhra Pradesh'},
+{n:'Ongole',s:'Andhra Pradesh'},{n:'Chittoor',s:'Andhra Pradesh'},{n:'Srikakulam',s:'Andhra Pradesh'},
+{n:'Nandyal',s:'Andhra Pradesh'},{n:'Machilipatnam',s:'Andhra Pradesh'},{n:'Bhimavaram',s:'Andhra Pradesh'},
+{n:'Tenali',s:'Andhra Pradesh'},{n:'Proddatur',s:'Andhra Pradesh'},{n:'Hindupur',s:'Andhra Pradesh'},
+{n:'Adoni',s:'Andhra Pradesh'},{n:'Tadipatri',s:'Andhra Pradesh'},{n:'Amaravati',s:'Andhra Pradesh'},
+{n:'Narasaraopet',s:'Andhra Pradesh'},{n:'Gudivada',s:'Andhra Pradesh'},{n:'Madanapalle',s:'Andhra Pradesh'},
+{n:'Guntakal',s:'Andhra Pradesh'},{n:'Dharmavaram',s:'Andhra Pradesh'},{n:'Tadepalligudem',s:'Andhra Pradesh'}
+];
+
+var DIST = {
+'Chennai-Madurai':462,'Chennai-Coimbatore':500,'Chennai-Trichy':326,'Chennai-Salem':336,
+'Chennai-Tirunelveli':617,'Chennai-Vellore':136,'Chennai-Erode':397,'Chennai-Thoothukudi':647,
+'Chennai-Tiruppur':462,'Chennai-Thanjavur':352,'Chennai-Dindigul':420,'Chennai-Kanchipuram':76,
+'Chennai-Kumbakonam':290,'Chennai-Cuddalore':158,'Chennai-Nagapattinam':318,
+'Chennai-Tiruvannamalai':188,'Chennai-Chengalpattu':55,'Chennai-Puducherry':162,
+'Chennai-Karur':370,'Chennai-Namakkal':354,'Chennai-Virudhunagar':524,
+'Chennai-Sivakasi':535,'Chennai-Ramanathapuram':566,'Chennai-Dharmapuri':318,
+'Chennai-Krishnagiri':282,'Chennai-Viluppuram':160,'Chennai-Hosur':320,
+'Chennai-Ooty':535,'Chennai-Kodaikanal':470,'Chennai-Pollachi':480,
+'Chennai-Chidambaram':220,'Chennai-Tirupattur':220,
+'Chennai-Bangalore':346,'Chennai-Mysore':478,'Chennai-Mangalore':670,
+'Chennai-Thiruvananthapuram':707,'Chennai-Kochi':688,'Chennai-Kozhikode':784,
+'Chennai-Thrissur':728,'Chennai-Kollam':657,'Chennai-Kannur':840,
+'Chennai-Palakkad':490,'Chennai-Alappuzha':727,'Chennai-Kottayam':710,
+'Chennai-Vijayawada':432,'Chennai-Visakhapatnam':790,'Chennai-Guntur':480,
+'Chennai-Nellore':175,'Chennai-Tirupati':148,'Chennai-Kurnool':445,
+'Chennai-Rajahmundry':660,'Chennai-Kadapa':282,'Chennai-Kakinada':710,
+'Madurai-Coimbatore':213,'Madurai-Trichy':133,'Madurai-Salem':230,
+'Madurai-Tirunelveli':163,'Madurai-Vellore':368,'Madurai-Erode':195,
+'Madurai-Thoothukudi':150,'Madurai-Tiruppur':175,'Madurai-Thanjavur':185,
+'Madurai-Dindigul':67,'Madurai-Kanchipuram':392,'Madurai-Kumbakonam':218,
+'Madurai-Nagapattinam':260,'Madurai-Tiruvannamalai':315,'Madurai-Puducherry':320,
+'Madurai-Ramanathapuram':125,'Madurai-Virudhunagar':70,'Madurai-Sivakasi':80,
+'Madurai-Ooty':265,'Madurai-Kodaikanal':120,'Madurai-Pollachi':155,
+'Madurai-Bangalore':450,'Madurai-Thiruvananthapuram':320,'Madurai-Kochi':336,
+'Madurai-Tirupati':410,'Madurai-Nellore':480,'Madurai-Vijayawada':630,
+'Coimbatore-Trichy':230,'Coimbatore-Salem':160,'Coimbatore-Erode':80,
+'Coimbatore-Tiruppur':50,'Coimbatore-Ooty':90,'Coimbatore-Pollachi':45,
+'Coimbatore-Bangalore':360,'Coimbatore-Mysore':280,'Coimbatore-Kochi':192,
+'Coimbatore-Thrissur':150,'Coimbatore-Palakkad':58,'Coimbatore-Kozhikode':185,
+'Coimbatore-Thiruvananthapuram':410,'Coimbatore-Dindigul':170,
+'Trichy-Salem':175,'Trichy-Thanjavur':58,'Trichy-Kumbakonam':95,
+'Trichy-Nagapattinam':175,'Trichy-Dindigul':100,'Trichy-Karur':80,
+'Trichy-Namakkal':90,'Trichy-Bangalore':390,'Trichy-Madurai':133,
+'Salem-Dharmapuri':70,'Salem-Krishnagiri':95,'Salem-Namakkal':50,
+'Salem-Erode':62,'Salem-Bangalore':210,'Salem-Hosur':250,
+'Bangalore-Mysore':150,'Bangalore-Mangalore':352,'Bangalore-Hubli':418,
+'Bangalore-Belgaum':500,'Bangalore-Tumkur':75,'Bangalore-Kolar':75,
+'Bangalore-Chikmagalur':245,'Bangalore-Hassan':185,'Bangalore-Udupi':387,
+'Bangalore-Coorg':255,'Bangalore-Hosur':40,
+'Thiruvananthapuram-Kochi':200,'Thiruvananthapuram-Kollam':71,
+'Thiruvananthapuram-Kozhikode':390,'Thiruvananthapuram-Thrissur':295,
+'Thiruvananthapuram-Alappuzha':155,'Thiruvananthapuram-Kottayam':156,
+'Kochi-Kozhikode':212,'Kochi-Thrissur':78,'Kochi-Palakkad':150,
+'Kochi-Alappuzha':54,'Kochi-Kottayam':72,'Kochi-Kannur':300,
+'Kochi-Mangalore':348,'Kochi-Munnar':130,'Kochi-Thekkady':190,
+'Vijayawada-Visakhapatnam':345,'Vijayawada-Guntur':57,'Vijayawada-Rajahmundry':175,
+'Vijayawada-Nellore':280,'Vijayawada-Tirupati':390,'Vijayawada-Kakinada':200,
+'Visakhapatnam-Kakinada':187,'Visakhapatnam-Rajahmundry':190,
+'Tirupati-Nellore':155,'Tirupati-Vijayawada':390,'Tirupati-Kadapa':165
+};
+
+function hlMatch(text, q) {
+  var i = text.toLowerCase().indexOf(q.toLowerCase());
+  if (i === -1) return text;
+  return text.substring(0, i) + '<mark style="background:rgba(245,165,36,0.35);color:var(--amber);font-weight:800;border-radius:2px;">' + text.substring(i, i + q.length) + '</mark>' + text.substring(i + q.length);
+}
+
+function getKm(a, b) {
+  var ca = a.split(',')[0].trim();
+  var cb = b.split(',')[0].trim();
+  if (ca === cb) return 0;
+  var k1 = ca + '-' + cb, k2 = cb + '-' + ca;
+  if (DIST[k1] !== undefined) return DIST[k1];
+  if (DIST[k2] !== undefined) return DIST[k2];
+  for (var key in DIST) {
+    var parts = key.split('-');
+    if ((parts[0] === ca && parts[1] === cb) || (parts[0] === cb && parts[1] === ca)) return DIST[key];
+  }
+  return null;
+}
+
+function bkHideDistance(scope) {
+  var prefix = scope === 'local' ? 'l' : 'o';
+  window[prefix + 'CalculatedDistance'] = '';
+  var banner = document.getElementById(prefix + 'DistanceBanner');
+  if (banner) banner.style.display = 'none';
+}
+
+function bkShowDistance(scope) {
+  var prefix = scope === 'local' ? 'l' : 'o';
+  var pickupVal = document.getElementById(prefix + 'Pickup').value.trim();
+  var dropVal = document.getElementById(prefix + 'Drop').value.trim();
+  var banner = document.getElementById(prefix + 'DistanceBanner');
+  var valEl = document.getElementById(prefix + 'DistanceVal');
+  if (!pickupVal || !dropVal) { bkHideDistance(scope); return; }
+  var km = getKm(pickupVal, dropVal);
+  if (km === null) { bkHideDistance(scope); return; }
+  if (km === 0) {
+    valEl.textContent = 'Same location selected';
+    window[prefix + 'CalculatedDistance'] = '';
+  } else {
+    valEl.textContent = '~' + km + ' km (approx road distance)';
+    window[prefix + 'CalculatedDistance'] = km + ' km (approx)';
+  }
+  banner.style.display = 'flex';
+}
+
+/* Called on every keystroke in a Pickup/Drop field */
+function bkHandleLocationInput(inputEl, suggestId) {
+  var suggestionsEl = document.getElementById(suggestId);
+  var scope = suggestId.startsWith('l') ? 'local' : 'outstation';
+
+  // Any edit (including clearing the field) invalidates a previously shown distance
+  bkHideDistance(scope);
+
+  var v = inputEl.value.trim();
+  if (v.length < 1) { suggestionsEl.innerHTML = ''; return; }
+
+  var q = v.toLowerCase();
+  var starts = LOC.filter(function (l) { return l.n.toLowerCase().indexOf(q) === 0; });
+  var contains = LOC.filter(function (l) {
+    return l.n.toLowerCase().indexOf(q) !== 0 && (l.n.toLowerCase().indexOf(q) !== -1 || l.s.toLowerCase().indexOf(q) !== -1);
+  });
+  var matches = starts.concat(contains).slice(0, 6);
+
+  suggestionsEl.innerHTML = '';
+  if (!matches.length) {
+    var noneDiv = document.createElement('div');
+    noneDiv.className = 'bk-suggestion-item';
+    noneDiv.style.cursor = 'default';
+    noneDiv.textContent = 'No matches for "' + v + '" — you can still type the full address and continue booking.';
+    suggestionsEl.appendChild(noneDiv);
+    return;
+  }
+
+  matches.forEach(function (l) {
+    var div = document.createElement('div');
+    div.className = 'bk-suggestion-item';
+    div.innerHTML = hlMatch(l.n, v) + ' <span style="color:var(--text-faint);font-size:12px;">— ' + l.s + '</span>';
+    div.onmousedown = function (e) {
+      e.preventDefault(); // fires before the input's blur event, so the click registers
+      inputEl.value = l.n + ', ' + l.s;
+      suggestionsEl.innerHTML = '';
+      bkShowDistance(scope);
+    };
+    suggestionsEl.appendChild(div);
+  });
+}
+
+function bkCloseSuggestions(suggestId) {
+  setTimeout(function () {
+    var el = document.getElementById(suggestId);
+    if (el) el.innerHTML = '';
+  }, 180);
+}
+
+/* Booking WhatsApp draft (hero card) */
+function bookAmbulance(type) {
+  const isLocal = type === 'local';
+  const prefix = isLocal ? 'l' : 'o';
+  const name = document.getElementById(prefix + 'PatientName').value.trim();
+  const mobile = document.getElementById(prefix + 'CallerMobile').value.trim();
+  const pickup = document.getElementById(prefix + 'Pickup').value.trim();
+  const drop = document.getElementById(prefix + 'Drop').value.trim();
+  const ambType = document.getElementById(prefix + 'AmbType').value;
+  const dateTime = document.getElementById(prefix + 'DateTime').value;
+  const notes = document.getElementById(prefix + 'Notes').value.trim();
+  const distance = window[prefix + 'CalculatedDistance'] || '';
+  const roundTrip = isLocal && document.getElementById('lRoundTrip').checked;
+  const returnDateTime = roundTrip ? document.getElementById('lReturnDateTime').value : '';
+
+  if (!name || !mobile || !pickup || !drop || !ambType) { alert('Please fill in all required fields before booking.'); return; }
+
+  let text = `🚑 *Ambulance Booking Request - Andavar Ambulance Service*\n\n`;
+  text += `Trip: ${isLocal ? 'Local Service' : 'Out Station Service'}\n`;
+  text += `Patient: ${name}\nContact: ${mobile}\n`;
+  text += `Pickup: ${pickup}\nDrop: ${drop}\n`;
+  if (distance) text += `Distance: ~${distance}\n`;
+  text += `Ambulance Type: ${ambType}\n`;
+  if (dateTime) text += `Date & Time: ${dateTime}\n`;
+  if (roundTrip) text += `Return Trip: Yes\n`;
+  if (roundTrip && returnDateTime) text += `Return Date & Time: ${returnDateTime}\n`;
+  if (notes) text += `Notes: ${notes}\n`;
+  text += `\nSent from Andavar Ambulance Service website`;
+
+  window.open(`https://wa.me/919360869598?text=${encodeURIComponent(text)}`, '_blank');
+}
+
+/* ===== Custom Date & Time Picker (with OK button) ===== */
+let dtPickerTarget = null;
+(function populateDTHours(){
+  const hourSelect = document.getElementById('dtModalHour');
+  for (let h = 1; h <= 12; h++) {
+    const opt = document.createElement('option');
+    opt.value = h; opt.textContent = h;
+    hourSelect.appendChild(opt);
+  }
+})();
+function openDTPicker(targetId) {
+  dtPickerTarget = targetId;
+  const todayStr = new Date().toISOString().split('T')[0];
+  const dateInput = document.getElementById('dtModalDate');
+  if (!dateInput.value) dateInput.value = todayStr;
+  dateInput.min = todayStr;
+  document.getElementById('dtModalOverlay').classList.add('active');
+}
+function closeDTPicker() {
+  document.getElementById('dtModalOverlay').classList.remove('active');
+  dtPickerTarget = null;
+}
+function confirmDTPicker() {
+  const dateVal = document.getElementById('dtModalDate').value;
+  if (!dateVal) { alert('Please select a date.'); return; }
+  const hour = document.getElementById('dtModalHour').value;
+  const minute = document.getElementById('dtModalMinute').value;
+  const ampm = document.getElementById('dtModalAmPm').value;
+  const dateObj = new Date(dateVal + 'T00:00:00');
+  const dateLabel = dateObj.toLocaleDateString('en-IN', { day: '2-digit', month: 'short', year: 'numeric' });
+  const displayText = `${dateLabel}, ${hour}:${minute} ${ampm}`;
+  if (dtPickerTarget) document.getElementById(dtPickerTarget).value = displayText;
+  closeDTPicker();
+}
+document.getElementById('dtModalOverlay').addEventListener('click', (e) => {
+  if (e.target.id === 'dtModalOverlay') closeDTPicker();
+});
+
+/* Contact enquiry WhatsApp draft */
+function sendEnquiry() {
+  const name = document.getElementById('enquiryName').value.trim();
+  const phone = document.getElementById('enquiryPhone').value.trim();
+  const service = document.getElementById('enquiryService').value;
+  const msg = document.getElementById('enquiryMsg').value.trim();
+  if (!name || !phone) { alert('Please fill in your name and phone number.'); return; }
+  const text = `Hello! I'd like to enquire about Andavar Ambulance Service.\n\nName: ${name}\nPhone: ${phone}\nService: ${service || 'General Enquiry'}\nMessage: ${msg || 'Please contact me.'}`;
+  window.open(`https://wa.me/919360869598?text=${encodeURIComponent(text)}`, '_blank');
+}
+
+</script>
+</body>
+</html>
